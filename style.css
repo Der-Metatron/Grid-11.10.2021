@@ -1,4 +1,16 @@
 body {background-color: blanchedalmond;font-family: 'Are You Serious', cursive; 
      font-size: 2rem;margin: 0;}
 
-.container {}
+footer {color: blue;align-items: flex-end;}
+
+h1 {text-align: center;}
+
+.container { display: grid;
+     grid-template-areas:
+       'header header header header header header'
+       'menu main main main right right'
+       'menu footer footer footer footer footer';
+     grid-gap: 10px;
+     background-color: #2196F3;
+     padding: 10px;
+ }
